@@ -1,0 +1,173 @@
+:root {
+    font-family:"Montserrat", system-ui;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color:#2F4F4F;
+    background-color: #E9F7EF;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #535bf2;
+  }
+
+  body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Montserrat", system-ui;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-color: #D3D3D3;
+    color: #708090;
+    margin-bottom: 10px;
+  }
+
+  input:focus {
+    outline: none;
+}
+
+  button {
+    margin: 0 80px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-family: "Montserrat", system-ui;;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #FF6F61;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  button:hover {
+    background-color: #fafafa;
+    border-color: #FF6F61;
+    color: #FF6F61;
+  }
+
+  button:focus,
+  button:focus-visible {
+      outline: none;
+  }
+  
+
+  /* @media (prefers-color-scheme: light) {
+      :root {
+        color: #213547;
+        background-color: #ffffff;
+      }
+
+      a:hover {
+        color: #747bff;
+      }
+
+      button {
+        background-color: #f9f9f9;
+      }
+    }
+     */
+
+
+  body {
+    font-family: "Montserrat", system-ui;;
+    line-height: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+  .flex {
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .task {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-family: "Montserrat", system-ui;
+    font-weight:600;
+    /* font-style:italic; */
+    color: #708090;
+  }
+
+  .task button {
+    transform: translateX(50%);
+    background-color: #FF6F61;
+  }
+
+  .task button:hover {
+    background-color: #f9f9f9;
+  }
+
+  .task span {
+    display: flex;
+    align-items: center;
+  }
+
+  .taskList {
+    min-width: 25vw;
+    margin: 30px;
+  }
+
+  .app-container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+ 
